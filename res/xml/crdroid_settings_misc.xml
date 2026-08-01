@@ -110,4 +110,13 @@
         android:summary="@string/floating_rotation_button_summary"
         android:defaultValue="true" />
 
+    <!-- Hide statusbar on screenshot -->
+    <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+        android:key="screenshot_hide_statusbar"
+        android:icon="@drawable/ic_statusbar"
+        android:title="@string/screenshot_hide_statusbar_title"
+        android:summary="@string/screenshot_hide_statusbar_summary"
+        android:defaultValue="false" />
+
+
 </PreferenceScreen>
