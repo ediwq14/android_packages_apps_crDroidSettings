@@ -1668,15 +1668,91 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="dark_theme_per_app_title">Expanded mode exceptions</string>
     <string name="dark_theme_per_app_summary">Choose apps that keep their own appearance instead of using expanded Dark theme</string>
 
-    <!-- Reality Display Engine -->
-    <string name="display_engine_category">Display engine</string>
-    <string name="display_engine_mode_title">Reality display engine</string>
-    <string name="x_reality_engine_mode_title">X-Reality engine</string>
-    <string name="vivid_engine_mode_title">Vivid display</string>
-    <string name="triluminous_engine_mode_title">Triluminous display</string>
-    <string name="natural_engine_mode_title">Natural display</string>
-    <string name="cinema_engine_mode_title">Cinema display</string>
-    <string name="reading_engine_mode_title">Comfort display (Reading mode)</string>
-    <string name="display_engine_default">Default</string>
-    <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, X-Reality mode for improved detail and color accuracy, and Triluminous mode for a wider color range.</string>
+    <!-- AppLock and Sandbox -->
+    <string name="applocker_sandbox_title">AppLock and Sandbox</string>
+    <string name="applocker_sandbox_summary">Open the AppLock and Sandbox management app</string>
+
+    <!-- QS Volume slider -->
+    <string name="qs_volume_slider_category">Volume slider</string>
+    <string name="qs_volume_slider_style_title">Volume slider style</string>
+    <string name="qs_volume_slider_style_summary">Change the style of the volume slider</string>
+    <string name="qs_show_volume_slider_title">Show volume slider</string>
+    <string name="qs_show_volume_slider_summary">Show the volume slider in the quick settings panel</string>
+    <string name="qs_volume_slider_shape_title">Volume slider shape</string>
+    <string name="qs_volume_slider_shape_summary">Change the shape of the volume slider</string>
+    <string name="qs_volume_slider_position_title">Volume slider position</string>
+    <string name="qs_volume_slider_position_summary">Change the position of the volume slider</string>
+    <string name="qs_show_ringer_button_title">Show ringer button</string>
+    <string name="qs_show_ringer_button_summary">Show the ringer button in the quick settings panel</string>
+    <string name="qs_volume_slider_gradient_title">QS volume slider gradient</string>
+    <string name="qs_volume_slider_gradient_summary">Show gradient in QS volume slider</string>
+    <string name="qs_show_haptic_title">Haptic feedback</string>
+    <string name="qs_show_haptic_summary">Provide haptic feedback on changing QS volume slider</string>
+
+    <!-- QS Shade Scrim Alpha -->
+    <string name="notification_scrim_alpha_title">Notification shade scrim opacity</string>
+    <string name="notification_scrim_alpha_summary">Adjust the scrim opacity behind the notification shade</string>
+    <string name="shade_scrim_alpha_title">QS shade scrim opacity</string>
+    <string name="shade_scrim_alpha_summary">Adjust the scrim opacity behind the QS shade</string>
+
+    <!-- Atmosphere Effect -->
+    <string name="atmosphereeffect_settings_title">Atmosphere Effect</string>
+    <string name="atmosphereeffect_settings_summary">Configure effects and animation settings</string>
+
+    <!-- Screen-on memory reclaim -->
+    <string name="screen_on_memory_reclaim_title">Screen-on memory reclaim</string>
+    <string name="screen_on_memory_reclaim_summary">Kill cached background apps shortly after the screen turns on to free memory</string>
+
+    <!-- status bar system icons popup -->
+    <string name="status_bar_icons_popup_title">System icons popup</string>
+    <string name="status_bar_icons_popup_summary">Long-press the status bar icons to show quick toggles, battery, and network info (not use with split shade)</string>
+
+    <!-- Split notification -->
+    <string name="qs_split_notification_title">Split notification shade</string>
+    <string name="qs_split_notification_summary">Allow the notification shade to split into two panes in landscape mode</string>
+
+    <!-- Screenshots -->
+    <string name="screenshot_clipboard_only_title">Copy to clipboard only</string>
+    <string name="screenshot_clipboard_only_summary">Copy screenshot to clipboard instead of saving in storage</string>
+    <string name="hide_status_bar_in_screenshot_title">Hide status bar in screenshots</string>
+    <string name="hide_status_bar_in_screenshot_summary">Crop the status bar area out of full screenshots</string>
+
+    <!-- Statusbar lyric -->
+    <string name="status_bar_lyric_title">Status bar lyric</string>
+    <string name="status_bar_lyric_summary">Show lyric in status bar (need app support)</string>
+    <string name="status_bar_show_lyric_title">Enable status bar lyric</string>
+    <string name="status_bar_lyric_options_title">Options</string>
+    <string name="disguise_props_for_music_app_title">Disguise device for music apps</string>
+    <string name="disguise_props_for_music_app_summary">Disguise device in some music applications for support status bar lyric. After changing this toggle, you have to restart applications for the change to take effect.</string>
+
+    <!-- System Animation styles -->
+    <string name="system_animation_style_title">System animation style</string>
+    <string name="pie_system_animation_style">Android P</string>
+    <string name="scale_system_animation_style">Scale</string>
+    <string name="slide_system_animation_style">Slide</string>
+    <string name="md3_system_animation_style">MD3 spring</string>
+
+    <!-- Dynamic island -->
+    <string name="status_bar_dynamic_island_title">Dynamic island</string>
+    <string name="status_bar_dynamic_island_summary">Configure the island and choose which features can appear</string>
+    <string name="dynamic_island_footer_title">About Dynamic Island</string>
+    <string name="dynamic_island_intro">Turn on Dynamic island and choose the features you want in the centered chip.</string>
+    <string name="dynamic_island_features_title">Features</string>
+    <string name="dynamic_island_media_controls_title">Media controls</string>
+    <string name="dynamic_island_media_controls_summary">Show playback controls and artwork in the island</string>
+    <string name="dynamic_island_screen_recording_title">Screen recording</string>
+    <string name="dynamic_island_screen_recording_summary">Show the recording timer and controls in the island</string>
+    <string name="dynamic_island_alarms_title">Alarms</string>
+    <string name="dynamic_island_alarms_summary">Show your next alarm or active alarm notification in the island</string>
+    <string name="dynamic_island_flashlight_title">Flashlight</string>
+    <string name="dynamic_island_flashlight_summary">Show flashlight status in the island when it is enabled</string>
+    <string name="dynamic_island_stopwatch_title">Stopwatch</string>
+    <string name="dynamic_island_stopwatch_summary">Show stopwatch progress and controls in the island</string>
+    <string name="dynamic_island_live_scores_title">Live scores</string>
+    <string name="dynamic_island_live_scores_summary">Show live scores for sports in the island for apps that give live score notification.</string>
+    <string name="dynamic_island_lyrics_title">Show lyrics</string>
+    <string name="dynamic_island_lyrics_summary">Show lyrics for supported apps in a card below the music card in the island</string>
+    <string name="dynamic_island_customization_title">Dynamic Island Customization</string>
+    <string name="dynamic_island_width_scale_title">Width Scale</string>
+    <string name="dynamic_island_height_scale_title">Height Scale</string>
 </resources>
