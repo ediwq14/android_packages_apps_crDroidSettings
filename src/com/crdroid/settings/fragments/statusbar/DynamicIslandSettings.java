@@ -35,6 +35,6 @@ public class DynamicIslandSettings extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.LUNARIS;
+        return MetricsProto.MetricsEvent.CRDROID_SETTINGS;
     }
 }
